@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-image: url("background.jpg");
+    color: rgb(235, 235, 235);
+}
+main {
+    background-color: rgb(20, 20, 20, 0.85);
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.juice, button:focus .txt  {
+    display: none;
+}
+button:focus .juice {
+    display: block;
+}
+.flex {
+    display: flex;
+}
+.button {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
